@@ -1,7 +1,13 @@
 .about_page{
   margin: 0 10px;
 }
+.container {
+  position: relative;
+}
 .swiper-tab{
+  background-color: skyblue;
+    position:fixed;
+    top:0;
     width: 100%;
     /* border-bottom: 2rpx solid #ccc; */
     text-align: center;
@@ -12,6 +18,7 @@
     justify-content: space-between;
     color: #ccc;
     font-size: 16px;
+    z-index: 1;
 }
 .swiper-tab-item{
     width: 30%; 

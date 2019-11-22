@@ -5,8 +5,8 @@
       <swiper-item>
         <view class="top">
           <icon class="iconfont icon-pinglun" bindtap="pinglun"></icon>
-          <icon class="iconfont icon-bierenxihuanpx" bindtap="bierenxihuanpx"></icon>
-          <icon class="iconfont icon-fenxiang" bindtap="fenxiang"></icon>
+          <icon class="iconfont icon-love" bindtap="bierenxihuanpx"></icon>
+          <icon class="iconfont icon-Artboard" bindtap="fenxiang"></icon>
         </view>
         <view class="center">
           <view class="center-img {{item.background}}" >img</view>

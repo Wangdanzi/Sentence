@@ -1,0 +1,16 @@
+.container {
+  margin-top: 50rpx;
+  background-color: #666;
+}
+li {
+  display: inline-block;
+  width: 100%;
+  height: 500rpx;
+  border: 1px solid #666; 
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.top {
+  height: 80rpx;
+  background-color: red;
+}

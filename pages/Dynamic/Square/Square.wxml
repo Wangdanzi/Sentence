@@ -1,4 +1,10 @@
 
-<view>
-  广场 Subscribe
+<view class="container">
+  <ul>
+    <li wx:for="{{10}}">
+      <view class="top"></view>
+      <view class="center">{{item}}</view>
+      <view class="buttom"></view>
+    </li>
+  </ul>
 </view>
