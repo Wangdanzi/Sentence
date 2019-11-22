@@ -1,0 +1,8 @@
+{"scripts": {
+  "serve": "vue-cli-service serve",
+  "build": "vue-cli-service build",
+  "lint": "vue-cli-service lint",
+  "commit": "node shell.js && lint-staged && git-cz",
+  "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+}
+}

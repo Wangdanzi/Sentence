@@ -1,12 +1,36 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/Channel/Channel",
+    "pages/Dynamic/Dynamic",
+    "pages/MySelf/MySelf",
     "pages/logs/logs"
+    
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Channel/Channel",
+        "text": "频道"
+      },
+      {
+        "pagePath": "pages/Dynamic/Dynamic",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/MySelf/MySelf",
+        "text": "我的"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "SENTENCE",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

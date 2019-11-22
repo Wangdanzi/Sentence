@@ -1,8 +1,3 @@
-/**app.wxss**/
-.container {
-  height: 100%;
-  box-sizing: border-box;
-} 
 @font-face {
   font-family: 'iconfont';  /* project id 1520852 */
   src: url('//at.alicdn.com/t/font_1520852_22cz2lele0o.eot');
@@ -19,8 +14,39 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-bierenxihuanpx:before {
   content: "\e601";
+}
+
+/* .icon-fenxiang1:before {
+  content: "\e62a";
+} */
+
+.icon-pinglun:before {
+  content: "\e609";
+}
+
+.icon-fenxiang:before {
+  content: "\e8b0";
+}
+
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bierenxihuanpx:before {
+  content: "\e601";
+}
+
+.icon-fenxiang1:before {
+  content: "\e62a";
 }
 
 .icon-pinglun:before {
@@ -29,5 +55,5 @@
 
 .icon-fenxiang:before {
   content: "\e8b0";
-  font-size: 20px;
 }
+
