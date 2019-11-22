@@ -1,1 +1,7 @@
-{}
+{
+  "usingComponents": {
+    "square": "./Square/Square",
+    "subscribe": "./Subscribe/Subscribe",
+    "diary": "./Diary/Diary"
+  }
+}
