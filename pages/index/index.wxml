@@ -1,24 +1,20 @@
 <!--index.wxml-->
 <view class="container index">
     <swiper interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{8}}" wx:key="*this">
+    <block wx:for="{{list}}" wx:key="*this">
       <swiper-item>
         <view class="top">
           <icon class="iconfont icon-pinglun" bindtap="pinglun"></icon>
           <icon class="iconfont icon-bierenxihuanpx" bindtap="bierenxihuanpx"></icon>
           <icon class="iconfont icon-fenxiang" bindtap="fenxiang"></icon>
         </view>
-        <view class="center"></view>
-        <view class="buttom">1234</view>
+        <view class="center">
+          <view class="center-img {{item.background}}" >img</view>
+          <view class="center-text">dataTime{{item.time}}</view>
+        </view>
+        <view class="buttom">{{item.text}}</view>
       </swiper-item>
     </block>
   </swiper>
-  <!-- <view class="top">
-    <icon class="iconfont icon-pinglun" bindtap="pinglun"></icon>
-    <icon class="iconfont icon-bierenxihuanpx" bindtap="bierenxihuanpx"></icon>
-    <icon class="iconfont icon-fenxiang" bindtap="fenxiang"></icon>
-  </view>
-  <view class="center"></view>
-  <view class="buttom"></view> -->
 </view>
 
