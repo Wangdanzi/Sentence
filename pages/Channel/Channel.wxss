@@ -1,0 +1,13 @@
+.list {
+  padding: 0 10px;
+}
+.list  li {
+  margin: 10px 10px 5px 0;
+  text-align: center;
+  line-height: 100px;
+  display: inline-block;
+  width: 185px;
+  height: 100px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}

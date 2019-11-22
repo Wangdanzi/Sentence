@@ -1,1 +1,16 @@
-频道
+<view class="channel">
+  <view>
+      <SearchBar id="SearchBar" addflag="{{addflag}}" addimg="{{addimg}}" bind:addhandle="addhandle" searchstr="{{searchstr}}" bind:searchList="searchList" bind:endsearchList="endsearchList" bind:cancelsearch="cancelsearch" bind:activity_clear="activity_clear">
+      </SearchBar>
+  </view>
+  <view class="list">
+    <ul>
+      <li wx:for="{{list}}" wx:for-item="item"  bindtap="handleChannel"  wx:for-index="id">
+        <!-- <view  bindtap="handleChannel"  id="{{key}}"> -->
+          <text>{{item.title}}</text>
+        <!-- </view> -->
+      </li>
+      <li bindtap="add">+</li>
+    </ul>
+  </view>
+</view>

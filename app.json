@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/Channel/Channel",
+    "pages/index/index",
     "pages/Dynamic/Dynamic",
     "pages/MySelf/MySelf",
     "pages/logs/logs"
