@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/MySelf/MySelf",
     "pages/Dynamic/Dynamic",
     "pages/Channel/Channel",
     "pages/index/index",
-    "pages/MySelf/MySelf",
     "pages/logs/logs"
     
   ],

@@ -1,10 +1,36 @@
 
 <view class="container">
   <ul>
-    <li wx:for="{{10}}">
-      <view class="top"></view>
-      <view class="center">{{item}}</view>
-      <view class="buttom"></view>
+    <li wx:for="{{list}}">
+      <view class="top" >
+        <view style="display: inline-block;">
+          <ul>
+            <li class="touxiang"> 11111</li>
+            <li class="title">
+              <span>1wqe</span>
+              <span>11222</span>
+            </li>
+          </ul>
+        </view>
+        <view class="tar" style="display: inline-block;">
+          <icon class="iconfont icon-arrow-down" bindtap="xiajiantou"></icon>
+        </view>
+        <view class="flex">
+
+        </view>
+      </view>
+      <view class="center">{{item.title}}</view>
+      <view class="buttom flex">
+        <view>
+          <icon class="iconfont icon-love" bindtap="bierenxihuanpx"></icon>
+        </view>
+        <view>
+            <icon class="iconfont icon-pinglun" bindtap="pinglun"></icon>
+        </view>
+        <view>
+          <icon class="iconfont icon-Artboard" bindtap="fenxiang"></icon>
+        </view>
+      </view>
     </li>
   </ul>
 </view>

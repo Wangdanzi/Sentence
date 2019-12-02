@@ -1,1 +1,12 @@
-我的
+<view>
+  <view class="header">
+    {{haha}}
+  </view>
+  <view class="main">
+    <view wx:for="{{list}}" bindtap="click" data-title="{{item.iocn}}" data-index="{{index}}"  wx:for-index="index" wx:for-item="nuo">
+      <icon class="iconfont icon-{{nuo.iocn}}"></icon>
+      {{index}}{{nuo.title}} 
+      <icon class="iconfont icon-{{jiantou}}"></icon> 
+    </view>
+  </view>
+</view>
