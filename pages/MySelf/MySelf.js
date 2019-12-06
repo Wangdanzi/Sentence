@@ -2,8 +2,6 @@
 const app = getApp()
 Page({
   data:{
-    jiantou:'xia',
-    haha:1,
     list:[
       {
         title:'我的消息',
@@ -31,36 +29,12 @@ Page({
       }
     ]
   },
-  click(e,index){
+  click(e){
     console.log(e, e.currentTarget.dataset.index);
-    if (e.currentTarget.dataset.index){
-      console.log(12354);
-    if (this.data.jiantou === 'xia') {
-      this.setData({
-        jiantou: 'shangjiantou'
-      })
-
-    } else {
-      this.setData({
-        jiantou: 'xia'
+    if (e.currentTarget.dataset.index ===0){
+      wx.navigateTo({  
+        url: "../MySelf/news/news"
       })
     }
-
-    }
-    // if (this.data.jiantou === 'xia') {
-    //   this.setData({
-    //     jiantou: 'shangjiantou'
-    //   })
-
-    // } else {
-    //   this.setData({
-    //     jiantou: 'xia'
-    //   })
-
-    // }
-    // e.map(item=>{
-    //   console.log(item);
-      
-    // })
   }
 })

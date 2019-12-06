@@ -4,8 +4,12 @@
     "pages/Dynamic/Dynamic",
     "pages/Channel/Channel",
     "pages/index/index",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/MySelf/news/news",
+    "pages/MySelf/Favorites/Favorites",
+    "pages/MySelf/Comment/Comment",
+    "pages/MySelf/Feedback/Feedback",
+    "pages/MySelf/Recommend/Recommend"
   ],
   "tabBar": {
     "list": [
@@ -26,6 +30,11 @@
         "text": "我的"
       }
     ]
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button",
+    "van-collapse": "@vant/weapp/collapse/index",
+    "van-collapse-item": "@vant/weapp/collapse-item/index"
   },
   "window": {
     "backgroundTextStyle": "light",
